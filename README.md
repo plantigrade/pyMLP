@@ -1,9 +1,15 @@
 ## pyMLP: Molecular Lipophilicity Potential evaluator
 
+
 ### Presentation
 
 pyMLP is a program computing the molecular lipophilicity
 potential map of proteins.
+
+pyMLP takes a protein .pdb file as input and output a .dx map file easily 
+visualized in many molecular visualization packages such as VMD, Pymol, 
+Chimera, ...
+
 
 ### References
 
