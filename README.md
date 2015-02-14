@@ -1,11 +1,11 @@
-# pyMLP: Molecular Lipophilicity Potential evaluator
+## pyMLP: Molecular Lipophilicity Potential evaluator
 
-## Presentation
+### Presentation
 
 pyMLP is a program computing the molecular lipophilicity
 potential map of proteins.
 
-## References
+### References
 
 Please include this reference in published work using pyMLP:
 
@@ -23,7 +23,7 @@ MLPP (see references). As a result pyMLP may run on any platform supported by
 Python and Numpy.
 
 
-## INSTALLATION
+### INSTALLATION
 
 In order to launch pyMLP you will need:
 * a working python installation (http://www.python.org) (tested with version
@@ -39,7 +39,7 @@ command to the CLI (command line interface):
 ```
 python pyMLP.py
 ```
-### Optional
+#### Optional
 
 In order to have pyMLP.py available from any directory you can copy it in your
 PATH (after enabling direct execution):
@@ -53,7 +53,7 @@ Then you can directly launch pyMLP that way:
 pyMLP.py
 ```
 
-## USAGE
+### USAGE
 
 pyMLP takes a .pdb file as input and output a .dx map file easily visualized in
 many molecular visualization packages such as VMD, Pymol, Chimera, ...
@@ -74,7 +74,7 @@ pyMLP.py -i foo.pdb
 pyMLP.py -v -i foo.pdb
 ```
 
-## FOOTNOTE
+### FOOTNOTE
 
 Feel free to criticize pyMLP code: it needs some serious refactoring and way
 more comments ... alas it works for me ... sorry
